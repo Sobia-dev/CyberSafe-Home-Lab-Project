@@ -1,0 +1,45 @@
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# secrets & configs
+*.env
+.env.*
+*.key
+*.pem
+*.pfx
+credentials*
+secrets*
+config.local.*
+*password*
+
+# backups/exports
+*.bak
+*.zip
+*.tar.gz
+*.7z
+
+# VM/hypervisor exports (large binaries, don't belong in git)
+*.ova
+*.ovf
+*.vma
+*.vma.gz
+*.qcow2
+*.vmdk
+*.iso
+
+# logs
+*.log
+logs/
+
+# Python (if you add scripts later)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# PowerShell
+*.ps1.bak
