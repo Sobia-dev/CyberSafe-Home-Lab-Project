@@ -25,7 +25,7 @@ The lab runs on one Lenovo ThinkCentre M720Q, bought used (originally Windows 11
 
 CyberSafe simulates an enterprise environment with five active VLANs segmented behind pfSense, running 9 VMs total:
 
-- **WAN** — 192.168.1.X/24 (DHCP) → pfSense (firewall/router)
+- **WAN** — 192.168.X.X/24 (DHCP) → pfSense (firewall/router)
 - **LAN** 10.10.0.0/24 — KALI-JUMPBOX (10.10.0.50): trusted attack/management host
 - **CORPORATE** 10.10.20.0/24 — DC01 (10.10.20.10): Active Directory (AD) domain controller; WIN11-CLIENT (10.10.20.11): domain-joined workstation
 - **DMZ** 10.10.30.0/24 — WEBSERVER01 (10.10.30.10): web app host
