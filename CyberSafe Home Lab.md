@@ -2,7 +2,7 @@
 
 2026-09-21 · Sobia R
 
-I'm working toward a career in blue team cybersecurity — SOC analyst, DFIR, and threat intelligence roles — and this homelab, CyberSafe, is how I get hands-on skills, reinforce what I learn, and demonstrate my commitment to continuous growth. It has grown from one refurbished mini PC into a segmented, multi-VLAN environment that mirrors a small enterprise network, complete with a domain, a SIEM, a vulnerability scanner, and its own DMZ.
+I'm working toward a career in blue team cybersecurity — SOC analyst, DFIR, and threat intelligence roles — I am learning technical skills through my CyberSafe Homelab. It has grown from one refurbished mini PC into a segmented, multi-VLAN environment that mirrors a small enterprise network, complete with a domain, a SIEM, a vulnerability scanner, and its own DMZ.
 
 ## Table of Contents
 
