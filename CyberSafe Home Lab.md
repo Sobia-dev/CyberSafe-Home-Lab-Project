@@ -2,7 +2,8 @@
 
 2026-09-21 · Sobia R
 
-I'm working toward a career in blue team cybersecurity — SOC analyst, DFIR, and threat intelligence roles — I am learning technical skills through my CyberSafe Homelab. It has grown from one refurbished mini PC into a segmented, multi-VLAN environment that mirrors a small enterprise network, complete with a domain, a SIEM, a vulnerability scanner, and its own DMZ.
+CyberSafe is my cornerstone for hands-on cybersecurity learning — an evolving lab where I troubleshoot real hardware and network issues and build the kind of readiness that translates directly to a SOC/DFIR role. 
+It has grown from one refurbished mini PC into a segmented, multi-VLAN environment that mirrors a small enterprise network, complete with a domain, a SIEM, a vulnerability scanner, SOAR, and its own DMZ.
 
 ## Table of Contents
 
@@ -47,10 +48,7 @@ CyberSafe supports:
 - Offensive testing and reconnaissance from the Kali jumpbox against the DMZ and app-data tiers
 - Practical incident response workflows and threat emulation across a segmented, defense-in-depth network
 
-## Conclusion
 
-CyberSafe is my cornerstone for hands-on cybersecurity learning — an evolving lab where I can break things, troubleshoot real hardware and network issues, and build the kind of readiness that translates directly to a SOC/DFIR role. Future work will keep refining the architecture, expand the SOAR playbooks, and stand up the second lab alongside it.
 
-## Author
 
-Sobia R — cybersecurity graduate from WGU and career changer into cybersecurity (former teacher and assessment examiner), now a Cybersecurity Analyst Intern at LOG(N) Pacific, working toward the SANS Undergraduate Certificate in Applied Cybersecurity. Focused on blue team, DFIR, threat intelligence, and AI governance.
+
