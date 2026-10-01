@@ -4,7 +4,8 @@
 # Adds the pfSense decoder so Wazuh correctly reads filterlog firewall events (instead of mislabeling them as FreePBX).
 # Adds firewall rules so blocks become real alerts — including the level-10 "possible port scan" detection that'll catch your nmap.
 # Restarts the Wazuh manager so the changes take effect.
-# Adds pfSense filterlog decoder + firewall rules to Wazuh manager, then restarts it.
+
+# Summary: Adds pfSense filterlog decoder + firewall rules to Wazuh manager, then restarts it.
 # Run on WAZUH01 as root:  sudo bash install-pfsense-wazuh.sh
 set -e
  
