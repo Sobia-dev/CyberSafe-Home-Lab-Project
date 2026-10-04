@@ -23,8 +23,11 @@
 - The task's full definition (trigger, action, run level) is captured in the `data.win.eventdata.taskContent` field, and the creating account is recorded as **CYBERSAFE\Administrator**.
 - Pre-work: had to enable the audit subcategory first — `auditpol /set /subcategory:"Other Object Access Events" /success:enable` — because event 4698 is **off by default**. Without it, the task creation would be invisible to the SIEM.
 
-![Figure 1 — Wazuh alert for scheduled task creation (event 4698, rule 60228)](images/Wazuh_Alert_Scheduled_Task_T1053.005.png)
-*Figure 1 — Wazuh (Discover): event 4698 on Win11-Client, rule 60228 "A scheduled task was created," created by CYBERSAFE\Administrator.*
+![Figure 1 — Audit policy enabled and raw Windows Security log (event 4698)](images/A&D-Sch.Task.png)
+*Figure 1 — Source-side evidence: enabling the "Other Object Access Events" audit subcategory (top) and the Windows Security log on Win11-Client showing event 4698 "A scheduled task was created" by CYBERSAFE\Administrator (bottom).*
+
+![Figure 2 — Wazuh alert for scheduled task creation (event 4698, rule 60228)](images/Wazuh_Alert_Scheduled_Task_T1053.005.png)
+*Figure 2 — Wazuh (Discover): event 4698 on Win11-Client, rule 60228 "A scheduled task was created," created by CYBERSAFE\Administrator.*
 
 ## Why it matters — and the fidelity gap (triage)
 
