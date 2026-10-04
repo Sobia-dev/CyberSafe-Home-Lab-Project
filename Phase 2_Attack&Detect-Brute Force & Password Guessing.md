@@ -33,6 +33,8 @@
 ![Figure 2 — Full evidence trail: attack, SIEM detection, and raw Windows log](images/bruteforce-evidence-trail.png)
 *Figure 2 — End-to-end proof: the attack running in PowerShell (left), the Wazuh event detail showing targetUserName=Administrator and logonType 3 (middle), and the raw Event Viewer 4625 Audit Failures on DC01 (right).*
 
+![Figure 3 — DC01 Security log: 384 event-4625 Audit Failures](images/bruteforce-eventviewer-4625.png)
+*Figure 3 — DC01's raw Windows Security log (Event Viewer), filtered to event ID 4625: 384 Audit Failures confirming the brute force at the source, independent of the SIEM.*
 ## Why it's suspicious (triage)
 
 - One account, many wrong passwords, same source, all in a few seconds — humans don't fail that fast or that consistently.
