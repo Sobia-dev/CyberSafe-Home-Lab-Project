@@ -27,6 +27,7 @@
 *Figure 1 — Source-side evidence: enabling the "Other Object Access Events" audit subcategory (top) and the Windows Security log on Win11-Client showing event 4698 "A scheduled task was created" by CYBERSAFE\Administrator (bottom).*
 
 ![Figure 2 — Wazuh alert for scheduled task creation (event 4698, rule 60228)](images/Wazuh_Alert_Scheduled_Task_T1053.005.png)
+
 *Figure 2 — Wazuh (Discover): event 4698 on Win11-Client, rule 60228 "A scheduled task was created," created by CYBERSAFE\Administrator.*
 
 ## Why it matters — and the fidelity gap (triage)
